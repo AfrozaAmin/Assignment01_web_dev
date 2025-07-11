@@ -159,8 +159,11 @@ nav{
 
 .Afroza{
     justify-content: center;
-    padding: 30px 150px;
-}
+text-align: center;
+flex-direction: column;
+align-items: center;
+
+ }
  .Ready{
   font-weight: bold;
   color: aqua;
@@ -181,11 +184,20 @@ nav{
     border: none;
     border-radius: 6px;
     padding: 10px 20px;
-
+    margin: 20px 70px 10px;
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    box-shadow: 0 4px 12px rgba(0 0 0 0.15);
   }
-
+.free:active{
+     background-color:darkcyan;
+    transform: scale(1.05);
+}
  .bigimg{
+    display: block;
     max-width: 100%;
+   height: auto;
+   margin: 0 auto;
+
  }
 
   .Users
