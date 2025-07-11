@@ -1,0 +1,163 @@
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.raleway-dots-regular {
+  font-family: "Raleway Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*header style*/
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+}
+/*nav styles*/
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 180px;
+    padding: auto;
+}
+
+.text-primary{
+    font-weight: 39px;
+    color: #4E47FF
+}
+
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    font-size: 16;
+    padding: 13px 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+ .banner-content {
+  text-align: center;
+  padding: 100px 20px 80px; 
+}
+
+.banner-heading1
+{
+    font-weight: bold;
+  font-size: 55px; 
+  margin-bottom: 30px;
+  line-height: 1.3;
+      padding: 100px 20px 80px; 
+      
+    }
+    
+
+.banner-button1{
+    display: inline-block;
+  background: #4f46e5;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+ }
+
+ .action{
+    display: flex;
+    font-size: 42px;
+    text-align: left; 
+    justify-content: space-between;
+    padding: 80px 180px;
+    margin: 0 auto;
+ 
+  }
+
+ .see{
+    font-weight: bold;
+    font-size: 42px;
+    text-align: left;
+      
+  }
+
+  .action-paragraph
+  {
+    color: darkgrey;
+    font-size: 24;
+    justify-content: baseline;
+   }
+
+  .act-btn{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 17;
+    cursor: pointer;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+  }
+  .active{
+    max-width: 520px;
+  }
+
+  .Users
+  {
+    background-color: #807ebb8f;
+    margin: 70px 190px 130px 190px;
+    border-radius: 10px;
+    justify-content: space-around;
+
+    
+  }
+
+  .productive-user
+  {
+    font-size: 38;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+  }
+.user-info
+{
+    color: blue;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.active-users{
+    color: black;
+    font-size: 20;
+}
+.user-number{
+  color: blue;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.focus-sessions{
+        color: black;
+    font-size: 20;
+}
+
+.user-percentage{
+     color: blue;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.Satisfaction rate{
+    color: black;
+    font-size: 20;
+}
+
+.sec1{
+    display: flex;
+}
+
+ 
