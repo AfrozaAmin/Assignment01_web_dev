@@ -314,3 +314,20 @@ footer input[type="text"], footer input[type="email"], footer textarea
     font-size: 12px;
     text-align: center;
  }
+
+ .touch{
+    color: blueviolet;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    box-shadow: 0 4px 12px rgba(0 0 0 0.15);
+
+ }
+ .touch:active{
+
+ background-color: rgb(208, 134, 245);
+ transform: scale(1.05);
+ }
